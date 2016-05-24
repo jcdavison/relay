@@ -151,6 +151,7 @@ class RelayDefaultNetworkLayer {
         'Content-Type': 'application/json',
       },
       method: 'POST',
+      credentials: 'same-origin'
     });
   }
 }
